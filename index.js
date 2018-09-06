@@ -11,4 +11,13 @@ const keywords = require('./keywords.js');
 const data = _.map(keywords, (keyword) => ({
   keyword
 }));
-console.log(data);
+
+const addObjects = () => {
+  index.addObjects(data, function(err, content) {
+    if (err) {
+      console.error(err);
+    } else {
+      console.log(content);
+    }
+  });
+}
