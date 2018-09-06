@@ -1,0 +1,12 @@
+{
+  "name": "agolia-prototype",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@sunday:199911/agolia-prototype.git",
+  "author": "KU Lok Sun <sundaykuloksun@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "algoliasearch": "^3.30.0",
+    "dotenv": "^6.0.0"
+  }
+}
